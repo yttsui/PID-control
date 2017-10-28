@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="battlebots"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Mac_toolchain\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battlebots.elf">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/battlebots.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 battlebots.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battlebots.elf/fast">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/battlebots.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 battlebots.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSIS">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/libCMSIS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSIS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSIS/fast">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/libCMSIS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMSIS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/libHAL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL/fast">
+				<Option output="/Users/xuyingzi/Developer/battlebots/cmake-build-debug/libHAL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuyingzi/Developer/battlebots/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Src"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Firmware/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/xuyingzi/Developer/battlebots/User/Inc"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuyingzi/Developer/battlebots/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="HAL"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/can.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/dma.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/gpio.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/spi.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/stm32f4xx_hal_msp.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/stm32f4xx_hal_timebase_TIM.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/stm32f4xx_it.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/system_stm32f4xx.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/tim.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Firmware/Src/usart.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Mac_toolchain/STM32F427IIHx_FLASH.ld">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Mac_toolchain/startup_stm32f427xx.s">
+			<Option target="CMSIS"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Src/PID.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/User/Src/chassis_motors.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/User/Src/main.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/User/Src/test_DBUS.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/User/Src/test_drive.c">
+			<Option target="battlebots.elf"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xuyingzi/Developer/battlebots/Mac_toolchain/cross-compiler.cmake">
+			<Option virtualFolder="CMake Files\Mac_toolchain\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

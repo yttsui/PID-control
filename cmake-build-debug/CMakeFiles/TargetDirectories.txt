@@ -1,0 +1,5 @@
+/Users/xuyingzi/Developer/battlebots/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xuyingzi/Developer/battlebots/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xuyingzi/Developer/battlebots/cmake-build-debug/CMakeFiles/battlebots.elf.dir
+/Users/xuyingzi/Developer/battlebots/cmake-build-debug/CMakeFiles/CMSIS.dir
+/Users/xuyingzi/Developer/battlebots/cmake-build-debug/CMakeFiles/HAL.dir
