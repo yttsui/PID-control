@@ -23,7 +23,7 @@ volatile Encoder CM4Encoder = {0,0,0,0,0,0,0,0,0,0,0,0,0,0}; // CAN Address 204
 
 uint32_t can_chassis_count[4] = {0, 0, 0, 0};
 void send_to_chassis(float wheel_speed_0, float wheel_speed_1, float wheel_speed_2, float wheel_speed_3) {
-    Chassis_Set_Speed((int16_t)(0.1*wheel_speed_0),(int16_t) (0.1*wheel_speed_1), (int16_t )0.1*wheel_speed_2, (int16_t)0.1*wheel_speed_3);
+    Chassis_Set_Speed((int16_t)(0.1*wheel_speed_0),(int16_t) (0.1*wheel_speed_1), (int16_t )(0.1*wheel_speed_2), (int16_t)(0.1*wheel_speed_3));
 };
 /*
  * can filter must be initialized before use

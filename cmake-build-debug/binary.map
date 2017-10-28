@@ -794,7 +794,7 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001ac                . = ALIGN (0x4)
 
-.text           0x00000000080001b0     0x6f0c
+.text           0x00000000080001b0     0x6f20
                 0x00000000080001b0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001b0       0x5c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
@@ -965,439 +965,439 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
                 0x00000000080020d8      0x348 CMakeFiles/battlebots.elf.dir/Firmware/Src/usart.c.obj
                 0x00000000080020d8                HAL_UART_MspInit
  .text.send_to_chassis
-                0x0000000008002420       0xa4 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x0000000008002420       0xb0 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
                 0x0000000008002420                send_to_chassis
  .text.CanFilter_Init
-                0x00000000080024c4       0x88 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x00000000080024c4                CanFilter_Init
+                0x00000000080024d0       0x88 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x00000000080024d0                CanFilter_Init
  .text.HAL_CAN_RxCpltCallback
-                0x000000000800254c       0xb8 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x000000000800254c                HAL_CAN_RxCpltCallback
+                0x0000000008002558       0xb8 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x0000000008002558                HAL_CAN_RxCpltCallback
  .text.encoderProcess
-                0x0000000008002604       0x4c CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x0000000008002604                encoderProcess
+                0x0000000008002610       0x4c CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x0000000008002610                encoderProcess
  .text.Chassis_Set_Speed
-                0x0000000008002650       0x8c CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x0000000008002650                Chassis_Set_Speed
+                0x000000000800265c       0x8c CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x000000000800265c                Chassis_Set_Speed
  .text.CAN_Send_Msg
-                0x00000000080026dc       0x68 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x00000000080026dc                CAN_Send_Msg
+                0x00000000080026e8       0x68 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x00000000080026e8                CAN_Send_Msg
  .text.get_wheel_velocity
-                0x0000000008002744       0x64 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x0000000008002744                get_wheel_velocity
+                0x0000000008002750       0x64 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x0000000008002750                get_wheel_velocity
  .text.control_car
-                0x00000000080027a8      0x178 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
-                0x00000000080027a8                control_car
- .text.main     0x0000000008002920       0xe4 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
-                0x0000000008002920                main
+                0x00000000080027b4      0x178 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+                0x00000000080027b4                control_car
+ .text.main     0x000000000800292c       0xe4 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+                0x000000000800292c                main
  .text.SystemClock_Config
-                0x0000000008002a04       0xec CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
-                0x0000000008002a04                SystemClock_Config
+                0x0000000008002a10       0xec CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+                0x0000000008002a10                SystemClock_Config
  .text.HAL_TIM_PeriodElapsedCallback
-                0x0000000008002af0       0x24 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
-                0x0000000008002af0                HAL_TIM_PeriodElapsedCallback
+                0x0000000008002afc       0x24 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+                0x0000000008002afc                HAL_TIM_PeriodElapsedCallback
  .text._Error_Handler
-                0x0000000008002b14        0xc CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
-                0x0000000008002b14                _Error_Handler
- .text.RC_Init  0x0000000008002b20       0x54 CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
-                0x0000000008002b20                RC_Init
+                0x0000000008002b20        0xc CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+                0x0000000008002b20                _Error_Handler
+ .text.RC_Init  0x0000000008002b2c       0x54 CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
+                0x0000000008002b2c                RC_Init
  .text.decryptDBUS
-                0x0000000008002b74       0xd0 CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
-                0x0000000008002b74                decryptDBUS
+                0x0000000008002b80       0xd0 CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
+                0x0000000008002b80                decryptDBUS
  .text.drive_kinematics
-                0x0000000008002c44      0x170 CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
-                0x0000000008002c44                drive_kinematics
- .text.map      0x0000000008002db4       0x5c CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
-                0x0000000008002db4                map
+                0x0000000008002c50      0x178 CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
+                0x0000000008002c50                drive_kinematics
+ .text.map      0x0000000008002dc8       0x5c CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
+                0x0000000008002dc8                map
  .text.PID_Init
-                0x0000000008002e10       0x78 CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
-                0x0000000008002e10                PID_Init
+                0x0000000008002e24       0x78 CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
+                0x0000000008002e24                PID_Init
  .text.PID_output
-                0x0000000008002e88      0x17c CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
-                0x0000000008002e88                PID_output
+                0x0000000008002e9c      0x17c CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
+                0x0000000008002e9c                PID_output
  .text.HAL_Init
-                0x0000000008003004       0x44 libHAL.a(stm32f4xx_hal.c.obj)
-                0x0000000008003004                HAL_Init
+                0x0000000008003018       0x44 libHAL.a(stm32f4xx_hal.c.obj)
+                0x0000000008003018                HAL_Init
  .text.HAL_IncTick
-                0x0000000008003048       0x1c libHAL.a(stm32f4xx_hal.c.obj)
-                0x0000000008003048                HAL_IncTick
+                0x000000000800305c       0x1c libHAL.a(stm32f4xx_hal.c.obj)
+                0x000000000800305c                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008003064       0x18 libHAL.a(stm32f4xx_hal.c.obj)
-                0x0000000008003064                HAL_GetTick
+                0x0000000008003078       0x18 libHAL.a(stm32f4xx_hal.c.obj)
+                0x0000000008003078                HAL_GetTick
  .text.HAL_Delay
-                0x000000000800307c       0x3c libHAL.a(stm32f4xx_hal.c.obj)
-                0x000000000800307c                HAL_Delay
+                0x0000000008003090       0x3c libHAL.a(stm32f4xx_hal.c.obj)
+                0x0000000008003090                HAL_Delay
  .text.HAL_CAN_Init
-                0x00000000080030b8      0x248 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x00000000080030b8                HAL_CAN_Init
+                0x00000000080030cc      0x248 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x00000000080030cc                HAL_CAN_Init
  .text.HAL_CAN_ConfigFilter
-                0x0000000008003300      0x19c libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x0000000008003300                HAL_CAN_ConfigFilter
+                0x0000000008003314      0x19c libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003314                HAL_CAN_ConfigFilter
  .text.HAL_CAN_Transmit
-                0x000000000800349c      0x354 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x000000000800349c                HAL_CAN_Transmit
+                0x00000000080034b0      0x354 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x00000000080034b0                HAL_CAN_Transmit
  .text.HAL_CAN_Receive_IT
-                0x00000000080037f0      0x170 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x00000000080037f0                HAL_CAN_Receive_IT
+                0x0000000008003804      0x170 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003804                HAL_CAN_Receive_IT
  .text.HAL_CAN_IRQHandler
-                0x0000000008003960      0x450 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x0000000008003960                HAL_CAN_IRQHandler
+                0x0000000008003974      0x450 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003974                HAL_CAN_IRQHandler
  .text.HAL_CAN_TxCpltCallback
-                0x0000000008003db0       0x14 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x0000000008003db0                HAL_CAN_TxCpltCallback
- .text.HAL_CAN_ErrorCallback
                 0x0000000008003dc4       0x14 libHAL.a(stm32f4xx_hal_can.c.obj)
-                0x0000000008003dc4                HAL_CAN_ErrorCallback
+                0x0000000008003dc4                HAL_CAN_TxCpltCallback
+ .text.HAL_CAN_ErrorCallback
+                0x0000000008003dd8       0x14 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003dd8                HAL_CAN_ErrorCallback
  .text.CAN_Transmit_IT
-                0x0000000008003dd8       0x80 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003dec       0x80 libHAL.a(stm32f4xx_hal_can.c.obj)
  .text.CAN_Receive_IT
-                0x0000000008003e58      0x268 libHAL.a(stm32f4xx_hal_can.c.obj)
+                0x0000000008003e6c      0x268 libHAL.a(stm32f4xx_hal_can.c.obj)
  .text.NVIC_SetPriorityGrouping
-                0x00000000080040c0       0x48 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x00000000080040d4       0x48 libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.NVIC_GetPriorityGrouping
-                0x0000000008004108       0x1c libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x000000000800411c       0x1c libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.NVIC_EnableIRQ
-                0x0000000008004124       0x34 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004138       0x34 libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.NVIC_SetPriority
-                0x0000000008004158       0x54 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x000000000800416c       0x54 libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.NVIC_EncodePriority
-                0x00000000080041ac       0x64 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x00000000080041c0       0x64 libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.SysTick_Config
-                0x0000000008004210       0x44 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004224       0x44 libHAL.a(stm32f4xx_hal_cortex.c.obj)
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008004254       0x18 libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x0000000008004254                HAL_NVIC_SetPriorityGrouping
+                0x0000000008004268       0x18 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004268                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x000000000800426c       0x38 libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x000000000800426c                HAL_NVIC_SetPriority
+                0x0000000008004280       0x38 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004280                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x00000000080042a4       0x1c libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x00000000080042a4                HAL_NVIC_EnableIRQ
+                0x00000000080042b8       0x1c libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x00000000080042b8                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x00000000080042c0       0x18 libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x00000000080042c0                HAL_SYSTICK_Config
+                0x00000000080042d4       0x18 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x00000000080042d4                HAL_SYSTICK_Config
  .text.HAL_SYSTICK_CLKSourceConfig
-                0x00000000080042d8       0x38 libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x00000000080042d8                HAL_SYSTICK_CLKSourceConfig
+                0x00000000080042ec       0x38 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x00000000080042ec                HAL_SYSTICK_CLKSourceConfig
  .text.HAL_SYSTICK_IRQHandler
-                0x0000000008004310        0xc libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x0000000008004310                HAL_SYSTICK_IRQHandler
+                0x0000000008004324        0xc libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004324                HAL_SYSTICK_IRQHandler
  .text.HAL_SYSTICK_Callback
-                0x000000000800431c       0x10 libHAL.a(stm32f4xx_hal_cortex.c.obj)
-                0x000000000800431c                HAL_SYSTICK_Callback
+                0x0000000008004330       0x10 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+                0x0000000008004330                HAL_SYSTICK_Callback
  .text.HAL_DMA_Init
-                0x000000000800432c      0x15c libHAL.a(stm32f4xx_hal_dma.c.obj)
-                0x000000000800432c                HAL_DMA_Init
+                0x0000000008004340      0x15c libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x0000000008004340                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0000000008004488       0xc0 libHAL.a(stm32f4xx_hal_dma.c.obj)
-                0x0000000008004488                HAL_DMA_Start_IT
+                0x000000000800449c       0xc0 libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x000000000800449c                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort_IT
-                0x0000000008004548       0x44 libHAL.a(stm32f4xx_hal_dma.c.obj)
-                0x0000000008004548                HAL_DMA_Abort_IT
+                0x000000000800455c       0x44 libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x000000000800455c                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x000000000800458c      0x320 libHAL.a(stm32f4xx_hal_dma.c.obj)
-                0x000000000800458c                HAL_DMA_IRQHandler
+                0x00000000080045a0      0x320 libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x00000000080045a0                HAL_DMA_IRQHandler
  .text.DMA_SetConfig
-                0x00000000080048ac       0x5c libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x00000000080048c0       0x5c libHAL.a(stm32f4xx_hal_dma.c.obj)
  .text.DMA_CalcBaseAndBitshift
-                0x0000000008004908       0x6c libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x000000000800491c       0x6c libHAL.a(stm32f4xx_hal_dma.c.obj)
  .text.DMA_CheckFifoParam
-                0x0000000008004974       0xf4 libHAL.a(stm32f4xx_hal_dma.c.obj)
+                0x0000000008004988       0xf4 libHAL.a(stm32f4xx_hal_dma.c.obj)
  .text.HAL_GPIO_Init
-                0x0000000008004a68      0x354 libHAL.a(stm32f4xx_hal_gpio.c.obj)
-                0x0000000008004a68                HAL_GPIO_Init
+                0x0000000008004a7c      0x354 libHAL.a(stm32f4xx_hal_gpio.c.obj)
+                0x0000000008004a7c                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008004dbc       0x34 libHAL.a(stm32f4xx_hal_gpio.c.obj)
-                0x0000000008004dbc                HAL_GPIO_WritePin
+                0x0000000008004dd0       0x34 libHAL.a(stm32f4xx_hal_gpio.c.obj)
+                0x0000000008004dd0                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x0000000008004df0       0x30 libHAL.a(stm32f4xx_hal_gpio.c.obj)
-                0x0000000008004df0                HAL_GPIO_EXTI_IRQHandler
+                0x0000000008004e04       0x30 libHAL.a(stm32f4xx_hal_gpio.c.obj)
+                0x0000000008004e04                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x0000000008004e20       0x18 libHAL.a(stm32f4xx_hal_gpio.c.obj)
-                0x0000000008004e20                HAL_GPIO_EXTI_Callback
+                0x0000000008004e34       0x18 libHAL.a(stm32f4xx_hal_gpio.c.obj)
+                0x0000000008004e34                HAL_GPIO_EXTI_Callback
  .text.HAL_RCC_OscConfig
-                0x0000000008004e38      0x4b4 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x0000000008004e38                HAL_RCC_OscConfig
+                0x0000000008004e4c      0x4b4 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x0000000008004e4c                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x00000000080052ec      0x224 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x00000000080052ec                HAL_RCC_ClockConfig
+                0x0000000008005300      0x224 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x0000000008005300                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008005510       0xfc libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x0000000008005510                HAL_RCC_GetSysClockFreq
+                0x0000000008005524       0xfc libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x0000000008005524                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x000000000800560c       0x18 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x000000000800560c                HAL_RCC_GetHCLKFreq
+                0x0000000008005620       0x18 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x0000000008005620                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008005624       0x44 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x0000000008005624                HAL_RCC_GetPCLK1Freq
+                0x0000000008005638       0x44 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x0000000008005638                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008005668       0x44 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x0000000008005668                HAL_RCC_GetPCLK2Freq
+                0x000000000800567c       0x44 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x000000000800567c                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCC_GetClockConfig
-                0x00000000080056ac       0x64 libHAL.a(stm32f4xx_hal_rcc.c.obj)
-                0x00000000080056ac                HAL_RCC_GetClockConfig
+                0x00000000080056c0       0x64 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+                0x00000000080056c0                HAL_RCC_GetClockConfig
  .text.HAL_SPI_Init
-                0x0000000008005710       0xc8 libHAL.a(stm32f4xx_hal_spi.c.obj)
-                0x0000000008005710                HAL_SPI_Init
+                0x0000000008005724       0xc8 libHAL.a(stm32f4xx_hal_spi.c.obj)
+                0x0000000008005724                HAL_SPI_Init
  .text.HAL_TIM_Base_Init
-                0x00000000080057d8       0x58 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x00000000080057d8                HAL_TIM_Base_Init
+                0x00000000080057ec       0x58 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x00000000080057ec                HAL_TIM_Base_Init
  .text.HAL_TIM_Base_MspInit
-                0x0000000008005830       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005830                HAL_TIM_Base_MspInit
+                0x0000000008005844       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005844                HAL_TIM_Base_MspInit
  .text.HAL_TIM_Base_Start_IT
-                0x0000000008005844       0x38 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005844                HAL_TIM_Base_Start_IT
+                0x0000000008005858       0x38 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005858                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_PWM_Init
-                0x000000000800587c       0x58 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x000000000800587c                HAL_TIM_PWM_Init
+                0x0000000008005890       0x58 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005890                HAL_TIM_PWM_Init
  .text.HAL_TIM_IRQHandler
-                0x00000000080058d4      0x210 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x00000000080058d4                HAL_TIM_IRQHandler
+                0x00000000080058e8      0x210 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x00000000080058e8                HAL_TIM_IRQHandler
  .text.HAL_TIM_PWM_ConfigChannel
-                0x0000000008005ae4      0x18c libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005ae4                HAL_TIM_PWM_ConfigChannel
+                0x0000000008005af8      0x18c libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005af8                HAL_TIM_PWM_ConfigChannel
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x0000000008005c70       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005c70                HAL_TIM_OC_DelayElapsedCallback
- .text.HAL_TIM_IC_CaptureCallback
                 0x0000000008005c84       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005c84                HAL_TIM_IC_CaptureCallback
- .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x0000000008005c84                HAL_TIM_OC_DelayElapsedCallback
+ .text.HAL_TIM_IC_CaptureCallback
                 0x0000000008005c98       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005c98                HAL_TIM_PWM_PulseFinishedCallback
- .text.HAL_TIM_TriggerCallback
+                0x0000000008005c98                HAL_TIM_IC_CaptureCallback
+ .text.HAL_TIM_PWM_PulseFinishedCallback
                 0x0000000008005cac       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005cac                HAL_TIM_TriggerCallback
+                0x0000000008005cac                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_TriggerCallback
+                0x0000000008005cc0       0x14 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005cc0                HAL_TIM_TriggerCallback
  .text.TIM_Base_SetConfig
-                0x0000000008005cc0      0x154 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005cc0                TIM_Base_SetConfig
+                0x0000000008005cd4      0x154 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005cd4                TIM_Base_SetConfig
  .text.TIM_OC2_SetConfig
-                0x0000000008005e14       0xf0 libHAL.a(stm32f4xx_hal_tim.c.obj)
-                0x0000000008005e14                TIM_OC2_SetConfig
+                0x0000000008005e28       0xf0 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005e28                TIM_OC2_SetConfig
  .text.TIM_OC1_SetConfig
-                0x0000000008005f04       0xe8 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008005f18       0xe8 libHAL.a(stm32f4xx_hal_tim.c.obj)
  .text.TIM_OC3_SetConfig
-                0x0000000008005fec       0xf0 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x0000000008006000       0xf0 libHAL.a(stm32f4xx_hal_tim.c.obj)
  .text.TIM_OC4_SetConfig
-                0x00000000080060dc       0xc0 libHAL.a(stm32f4xx_hal_tim.c.obj)
+                0x00000000080060f0       0xc0 libHAL.a(stm32f4xx_hal_tim.c.obj)
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x000000000800619c       0x8c libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
-                0x000000000800619c                HAL_TIMEx_MasterConfigSynchronization
+                0x00000000080061b0       0x8c libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
+                0x00000000080061b0                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x0000000008006228       0xb4 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
-                0x0000000008006228                HAL_TIMEx_ConfigBreakDeadTime
+                0x000000000800623c       0xb4 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
+                0x000000000800623c                HAL_TIMEx_ConfigBreakDeadTime
  .text.HAL_TIMEx_CommutationCallback
-                0x00000000080062dc       0x14 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
-                0x00000000080062dc                HAL_TIMEx_CommutationCallback
- .text.HAL_TIMEx_BreakCallback
                 0x00000000080062f0       0x14 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
-                0x00000000080062f0                HAL_TIMEx_BreakCallback
+                0x00000000080062f0                HAL_TIMEx_CommutationCallback
+ .text.HAL_TIMEx_BreakCallback
+                0x0000000008006304       0x14 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
+                0x0000000008006304                HAL_TIMEx_BreakCallback
  .text.HAL_UART_Init
-                0x0000000008006304       0x9c libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x0000000008006304                HAL_UART_Init
+                0x0000000008006318       0x9c libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006318                HAL_UART_Init
  .text.HAL_UART_Receive_DMA
-                0x00000000080063a0      0x100 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x00000000080063a0                HAL_UART_Receive_DMA
+                0x00000000080063b4      0x100 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080063b4                HAL_UART_Receive_DMA
  .text.HAL_UART_DMAPause
-                0x00000000080064a0       0xc8 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x00000000080064a0                HAL_UART_DMAPause
+                0x00000000080064b4       0xc8 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080064b4                HAL_UART_DMAPause
  .text.HAL_UART_DMAResume
-                0x0000000008006568       0xa4 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x0000000008006568                HAL_UART_DMAResume
+                0x000000000800657c       0xa4 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x000000000800657c                HAL_UART_DMAResume
  .text.HAL_UART_IRQHandler
-                0x000000000800660c      0x1f8 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x000000000800660c                HAL_UART_IRQHandler
+                0x0000000008006620      0x1f8 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006620                HAL_UART_IRQHandler
  .text.HAL_UART_TxCpltCallback
-                0x0000000008006804       0x14 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x0000000008006804                HAL_UART_TxCpltCallback
- .text.HAL_UART_RxCpltCallback
                 0x0000000008006818       0x14 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x0000000008006818                HAL_UART_RxCpltCallback
- .text.HAL_UART_RxHalfCpltCallback
+                0x0000000008006818                HAL_UART_TxCpltCallback
+ .text.HAL_UART_RxCpltCallback
                 0x000000000800682c       0x14 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x000000000800682c                HAL_UART_RxHalfCpltCallback
- .text.HAL_UART_ErrorCallback
+                0x000000000800682c                HAL_UART_RxCpltCallback
+ .text.HAL_UART_RxHalfCpltCallback
                 0x0000000008006840       0x14 libHAL.a(stm32f4xx_hal_uart.c.obj)
-                0x0000000008006840                HAL_UART_ErrorCallback
+                0x0000000008006840                HAL_UART_RxHalfCpltCallback
+ .text.HAL_UART_ErrorCallback
+                0x0000000008006854       0x14 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006854                HAL_UART_ErrorCallback
  .text.UART_DMAReceiveCplt
-                0x0000000008006854       0x68 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006868       0x68 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_DMARxHalfCplt
-                0x00000000080068bc       0x1c libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080068d0       0x1c libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_DMAError
-                0x00000000080068d8       0x94 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080068ec       0x94 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_EndTxTransfer
-                0x000000000800696c       0x2c libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006980       0x2c libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_EndRxTransfer
-                0x0000000008006998       0x3c libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080069ac       0x3c libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_DMAAbortOnError
-                0x00000000080069d4       0x28 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x00000000080069e8       0x28 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_Transmit_IT
-                0x00000000080069fc       0xac libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006a10       0xac libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_EndTransmit_IT
-                0x0000000008006aa8       0x30 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006abc       0x30 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_Receive_IT
-                0x0000000008006ad8       0xf4 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006aec       0xf4 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.UART_SetConfig
-                0x0000000008006bcc      0x438 libHAL.a(stm32f4xx_hal_uart.c.obj)
+                0x0000000008006be0      0x438 libHAL.a(stm32f4xx_hal_uart.c.obj)
  .text.Reset_Handler
-                0x0000000008007004       0x50 libCMSIS.a(startup_stm32f427xx.s.obj)
-                0x0000000008007004                Reset_Handler
+                0x0000000008007018       0x50 libCMSIS.a(startup_stm32f427xx.s.obj)
+                0x0000000008007018                Reset_Handler
  .text.Default_Handler
-                0x0000000008007054        0x2 libCMSIS.a(startup_stm32f427xx.s.obj)
-                0x0000000008007054                DMA1_Stream3_IRQHandler
-                0x0000000008007054                HASH_RNG_IRQHandler
-                0x0000000008007054                EXTI2_IRQHandler
-                0x0000000008007054                TIM8_CC_IRQHandler
-                0x0000000008007054                UART8_IRQHandler
-                0x0000000008007054                SPI4_IRQHandler
-                0x0000000008007054                TIM1_CC_IRQHandler
-                0x0000000008007054                DMA2_Stream5_IRQHandler
-                0x0000000008007054                PVD_IRQHandler
-                0x0000000008007054                SDIO_IRQHandler
-                0x0000000008007054                TAMP_STAMP_IRQHandler
-                0x0000000008007054                CAN2_RX1_IRQHandler
-                0x0000000008007054                EXTI3_IRQHandler
-                0x0000000008007054                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008007054                TIM1_UP_TIM10_IRQHandler
-                0x0000000008007054                TIM8_UP_TIM13_IRQHandler
-                0x0000000008007054                I2C3_ER_IRQHandler
-                0x0000000008007054                EXTI0_IRQHandler
-                0x0000000008007054                I2C2_EV_IRQHandler
-                0x0000000008007054                DMA1_Stream2_IRQHandler
-                0x0000000008007054                FPU_IRQHandler
-                0x0000000008007054                OTG_HS_WKUP_IRQHandler
-                0x0000000008007054                CAN2_SCE_IRQHandler
-                0x0000000008007054                SPI1_IRQHandler
-                0x0000000008007054                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008007054                DCMI_IRQHandler
-                0x0000000008007054                CAN1_RX1_IRQHandler
-                0x0000000008007054                UART5_IRQHandler
-                0x0000000008007054                DMA2_Stream0_IRQHandler
-                0x0000000008007054                TIM4_IRQHandler
-                0x0000000008007054                I2C1_EV_IRQHandler
-                0x0000000008007054                DMA1_Stream6_IRQHandler
-                0x0000000008007054                UART4_IRQHandler
-                0x0000000008007054                TIM3_IRQHandler
-                0x0000000008007054                RCC_IRQHandler
-                0x0000000008007054                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008007054                Default_Handler
-                0x0000000008007054                ADC_IRQHandler
-                0x0000000008007054                DMA1_Stream7_IRQHandler
-                0x0000000008007054                SPI5_IRQHandler
-                0x0000000008007054                TIM7_IRQHandler
-                0x0000000008007054                TIM5_IRQHandler
-                0x0000000008007054                DMA2_Stream7_IRQHandler
-                0x0000000008007054                I2C3_EV_IRQHandler
-                0x0000000008007054                EXTI9_5_IRQHandler
-                0x0000000008007054                RTC_WKUP_IRQHandler
-                0x0000000008007054                ETH_WKUP_IRQHandler
-                0x0000000008007054                SPI2_IRQHandler
-                0x0000000008007054                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008007054                DMA1_Stream0_IRQHandler
-                0x0000000008007054                EXTI4_IRQHandler
-                0x0000000008007054                ETH_IRQHandler
-                0x0000000008007054                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008007054                WWDG_IRQHandler
-                0x0000000008007054                SPI6_IRQHandler
-                0x0000000008007054                TIM2_IRQHandler
-                0x0000000008007054                OTG_FS_WKUP_IRQHandler
-                0x0000000008007054                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008007054                OTG_HS_IRQHandler
-                0x0000000008007054                DMA2D_IRQHandler
-                0x0000000008007054                EXTI1_IRQHandler
-                0x0000000008007054                UART7_IRQHandler
-                0x0000000008007054                I2C2_ER_IRQHandler
-                0x0000000008007054                CAN1_SCE_IRQHandler
-                0x0000000008007054                FLASH_IRQHandler
-                0x0000000008007054                DMA2_Stream4_IRQHandler
-                0x0000000008007054                OTG_FS_IRQHandler
-                0x0000000008007054                SPI3_IRQHandler
-                0x0000000008007054                DMA1_Stream4_IRQHandler
-                0x0000000008007054                I2C1_ER_IRQHandler
-                0x0000000008007054                FMC_IRQHandler
-                0x0000000008007054                DMA2_Stream6_IRQHandler
-                0x0000000008007054                SAI1_IRQHandler
-                0x0000000008007054                RTC_Alarm_IRQHandler
- *fill*         0x0000000008007056        0x2 
+                0x0000000008007068        0x2 libCMSIS.a(startup_stm32f427xx.s.obj)
+                0x0000000008007068                DMA1_Stream3_IRQHandler
+                0x0000000008007068                HASH_RNG_IRQHandler
+                0x0000000008007068                EXTI2_IRQHandler
+                0x0000000008007068                TIM8_CC_IRQHandler
+                0x0000000008007068                UART8_IRQHandler
+                0x0000000008007068                SPI4_IRQHandler
+                0x0000000008007068                TIM1_CC_IRQHandler
+                0x0000000008007068                DMA2_Stream5_IRQHandler
+                0x0000000008007068                PVD_IRQHandler
+                0x0000000008007068                SDIO_IRQHandler
+                0x0000000008007068                TAMP_STAMP_IRQHandler
+                0x0000000008007068                CAN2_RX1_IRQHandler
+                0x0000000008007068                EXTI3_IRQHandler
+                0x0000000008007068                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008007068                TIM1_UP_TIM10_IRQHandler
+                0x0000000008007068                TIM8_UP_TIM13_IRQHandler
+                0x0000000008007068                I2C3_ER_IRQHandler
+                0x0000000008007068                EXTI0_IRQHandler
+                0x0000000008007068                I2C2_EV_IRQHandler
+                0x0000000008007068                DMA1_Stream2_IRQHandler
+                0x0000000008007068                FPU_IRQHandler
+                0x0000000008007068                OTG_HS_WKUP_IRQHandler
+                0x0000000008007068                CAN2_SCE_IRQHandler
+                0x0000000008007068                SPI1_IRQHandler
+                0x0000000008007068                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008007068                DCMI_IRQHandler
+                0x0000000008007068                CAN1_RX1_IRQHandler
+                0x0000000008007068                UART5_IRQHandler
+                0x0000000008007068                DMA2_Stream0_IRQHandler
+                0x0000000008007068                TIM4_IRQHandler
+                0x0000000008007068                I2C1_EV_IRQHandler
+                0x0000000008007068                DMA1_Stream6_IRQHandler
+                0x0000000008007068                UART4_IRQHandler
+                0x0000000008007068                TIM3_IRQHandler
+                0x0000000008007068                RCC_IRQHandler
+                0x0000000008007068                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008007068                Default_Handler
+                0x0000000008007068                ADC_IRQHandler
+                0x0000000008007068                DMA1_Stream7_IRQHandler
+                0x0000000008007068                SPI5_IRQHandler
+                0x0000000008007068                TIM7_IRQHandler
+                0x0000000008007068                TIM5_IRQHandler
+                0x0000000008007068                DMA2_Stream7_IRQHandler
+                0x0000000008007068                I2C3_EV_IRQHandler
+                0x0000000008007068                EXTI9_5_IRQHandler
+                0x0000000008007068                RTC_WKUP_IRQHandler
+                0x0000000008007068                ETH_WKUP_IRQHandler
+                0x0000000008007068                SPI2_IRQHandler
+                0x0000000008007068                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008007068                DMA1_Stream0_IRQHandler
+                0x0000000008007068                EXTI4_IRQHandler
+                0x0000000008007068                ETH_IRQHandler
+                0x0000000008007068                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008007068                WWDG_IRQHandler
+                0x0000000008007068                SPI6_IRQHandler
+                0x0000000008007068                TIM2_IRQHandler
+                0x0000000008007068                OTG_FS_WKUP_IRQHandler
+                0x0000000008007068                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008007068                OTG_HS_IRQHandler
+                0x0000000008007068                DMA2D_IRQHandler
+                0x0000000008007068                EXTI1_IRQHandler
+                0x0000000008007068                UART7_IRQHandler
+                0x0000000008007068                I2C2_ER_IRQHandler
+                0x0000000008007068                CAN1_SCE_IRQHandler
+                0x0000000008007068                FLASH_IRQHandler
+                0x0000000008007068                DMA2_Stream4_IRQHandler
+                0x0000000008007068                OTG_FS_IRQHandler
+                0x0000000008007068                SPI3_IRQHandler
+                0x0000000008007068                DMA1_Stream4_IRQHandler
+                0x0000000008007068                I2C1_ER_IRQHandler
+                0x0000000008007068                FMC_IRQHandler
+                0x0000000008007068                DMA2_Stream6_IRQHandler
+                0x0000000008007068                SAI1_IRQHandler
+                0x0000000008007068                RTC_Alarm_IRQHandler
+ *fill*         0x000000000800706a        0x2 
  .text.__libc_init_array
-                0x0000000008007058       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg_nano.a(lib_a-init.o)
-                0x0000000008007058                __libc_init_array
+                0x000000000800706c       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg_nano.a(lib_a-init.o)
+                0x000000000800706c                __libc_init_array
  *(.glue_7)
- .glue_7        0x00000000080070a4        0x0 linker stubs
+ .glue_7        0x00000000080070b8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080070a4        0x0 linker stubs
+ .glue_7t       0x00000000080070b8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080070a4        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x00000000080070b8        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
  *(.init)
- .init          0x00000000080070a4        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
-                0x00000000080070a4                _init
- .init          0x00000000080070a8        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
+ .init          0x00000000080070b8        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
+                0x00000000080070b8                _init
+ .init          0x00000000080070bc        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
  *(.fini)
- .fini          0x00000000080070b0        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
-                0x00000000080070b0                _fini
- .fini          0x00000000080070b4        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
-                0x00000000080070bc                . = ALIGN (0x4)
-                0x00000000080070bc                _etext = .
+ .fini          0x00000000080070c4        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
+                0x00000000080070c4                _fini
+ .fini          0x00000000080070c8        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
+                0x00000000080070d0                . = ALIGN (0x4)
+                0x00000000080070d0                _etext = .
 
-.vfp11_veneer   0x00000000080070bc        0x0
- .vfp11_veneer  0x00000000080070bc        0x0 linker stubs
+.vfp11_veneer   0x00000000080070d0        0x0
+ .vfp11_veneer  0x00000000080070d0        0x0 linker stubs
 
-.v4_bx          0x00000000080070bc        0x0
- .v4_bx         0x00000000080070bc        0x0 linker stubs
+.v4_bx          0x00000000080070d0        0x0
+ .v4_bx         0x00000000080070d0        0x0 linker stubs
 
-.iplt           0x00000000080070bc        0x0
- .iplt          0x00000000080070bc        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+.iplt           0x00000000080070d0        0x0
+ .iplt          0x00000000080070d0        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.rodata         0x00000000080070bc      0x13c
-                0x00000000080070bc                . = ALIGN (0x4)
+.rodata         0x00000000080070d0      0x13c
+                0x00000000080070d0                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x00000000080070bc       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/can.c.obj
- .rodata        0x00000000080070f4       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/spi.c.obj
- .rodata        0x000000000800712c       0x18 CMakeFiles/battlebots.elf.dir/Firmware/Src/system_stm32f4xx.c.obj
-                0x000000000800712c                AHBPrescTable
-                0x000000000800713c                APBPrescTable
- .rodata        0x0000000008007144       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/tim.c.obj
- .rodata        0x000000000800717c       0x3a CMakeFiles/battlebots.elf.dir/Firmware/Src/usart.c.obj
- *fill*         0x00000000080071b6        0x2 
- .rodata        0x00000000080071b8       0x35 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
- *fill*         0x00000000080071ed        0x3 
- .rodata        0x00000000080071f0        0x8 libHAL.a(stm32f4xx_hal_dma.c.obj)
+ .rodata        0x00000000080070d0       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/can.c.obj
+ .rodata        0x0000000008007108       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/spi.c.obj
+ .rodata        0x0000000008007140       0x18 CMakeFiles/battlebots.elf.dir/Firmware/Src/system_stm32f4xx.c.obj
+                0x0000000008007140                AHBPrescTable
+                0x0000000008007150                APBPrescTable
+ .rodata        0x0000000008007158       0x38 CMakeFiles/battlebots.elf.dir/Firmware/Src/tim.c.obj
+ .rodata        0x0000000008007190       0x3a CMakeFiles/battlebots.elf.dir/Firmware/Src/usart.c.obj
+ *fill*         0x00000000080071ca        0x2 
+ .rodata        0x00000000080071cc       0x35 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+ *fill*         0x0000000008007201        0x3 
+ .rodata        0x0000000008007204        0x8 libHAL.a(stm32f4xx_hal_dma.c.obj)
  *(.rodata*)
-                0x00000000080071f8                . = ALIGN (0x4)
+                0x000000000800720c                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000080071f8        0x0
- .rel.iplt      0x00000000080071f8        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+.rel.dyn        0x000000000800720c        0x0
+ .rel.iplt      0x000000000800720c        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080071f8        0x0
-                0x00000000080071f8                __exidx_start = .
+.ARM            0x000000000800720c        0x0
+                0x000000000800720c                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080071f8                __exidx_end = .
+                0x000000000800720c                __exidx_end = .
 
-.preinit_array  0x00000000080071f8        0x0
-                0x00000000080071f8                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x000000000800720c        0x0
+                0x000000000800720c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080071f8                PROVIDE (__preinit_array_end, .)
+                0x000000000800720c                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00000000080071f8        0x4
-                0x00000000080071f8                PROVIDE (__init_array_start, .)
+.init_array     0x000000000800720c        0x4
+                0x000000000800720c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080071f8        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
-                0x00000000080071fc                PROVIDE (__init_array_end, .)
+ .init_array    0x000000000800720c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+                0x0000000008007210                PROVIDE (__init_array_end, .)
 
-.fini_array     0x00000000080071fc        0x4
+.fini_array     0x0000000008007210        0x4
                 [!provide]                        PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080071fc        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+ .fini_array    0x0000000008007210        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end, .)
-                0x0000000008007200                _sidata = LOADADDR (.data)
+                0x0000000008007214                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x8 load address 0x0000000008007200
+.data           0x0000000020000000        0x8 load address 0x0000000008007214
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1407,15 +1407,15 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
  *(.data*)
                 0x0000000020000008                . = ALIGN (0x4)
                 0x0000000020000008                _edata = .
-                0x0000000008007208                _siccmram = LOADADDR (.ccmram)
+                0x000000000800721c                _siccmram = LOADADDR (.ccmram)
 
-.jcr            0x0000000020000008        0x0 load address 0x0000000008007208
+.jcr            0x0000000020000008        0x0 load address 0x000000000800721c
  .jcr           0x0000000020000008        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.igot.plt       0x0000000020000008        0x0 load address 0x0000000008007208
+.igot.plt       0x0000000020000008        0x0 load address 0x000000000800721c
  .igot.plt      0x0000000020000008        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008007208
+.ccmram         0x0000000010000000        0x0 load address 0x000000000800721c
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -1815,7 +1815,7 @@ OUTPUT(battlebots.elf elf32-littlearm)
  .comment       0x000000000000006e       0x6f libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
  .comment       0x000000000000006e       0x6f libHAL.a(stm32f4xx_hal_uart.c.obj)
 
-.debug_frame    0x0000000000000000     0x4058
+.debug_frame    0x0000000000000000     0x405c
  .debug_frame   0x0000000000000000       0x90 CMakeFiles/battlebots.elf.dir/Firmware/Src/can.c.obj
  .debug_frame   0x0000000000000090       0x34 CMakeFiles/battlebots.elf.dir/Firmware/Src/dma.c.obj
  .debug_frame   0x00000000000000c4       0x34 CMakeFiles/battlebots.elf.dir/Firmware/Src/gpio.c.obj
@@ -1826,19 +1826,19 @@ OUTPUT(battlebots.elf elf32-littlearm)
  .debug_frame   0x00000000000004bc       0x58 CMakeFiles/battlebots.elf.dir/Firmware/Src/system_stm32f4xx.c.obj
  .debug_frame   0x0000000000000514      0x15c CMakeFiles/battlebots.elf.dir/Firmware/Src/tim.c.obj
  .debug_frame   0x0000000000000670       0xcc CMakeFiles/battlebots.elf.dir/Firmware/Src/usart.c.obj
- .debug_frame   0x000000000000073c      0x190 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
- .debug_frame   0x00000000000008cc       0x94 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
- .debug_frame   0x0000000000000960       0x4c CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
- .debug_frame   0x00000000000009ac       0x5c CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
- .debug_frame   0x0000000000000a08       0x60 CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
- .debug_frame   0x0000000000000a68      0x338 libHAL.a(stm32f4xx_hal.c.obj)
- .debug_frame   0x0000000000000da0      0x2f8 libHAL.a(stm32f4xx_hal_can.c.obj)
- .debug_frame   0x0000000000001098      0x498 libHAL.a(stm32f4xx_hal_cortex.c.obj)
- .debug_frame   0x0000000000001530      0x250 libHAL.a(stm32f4xx_hal_dma.c.obj)
- .debug_frame   0x0000000000001780      0x14c libHAL.a(stm32f4xx_hal_gpio.c.obj)
- .debug_frame   0x00000000000018cc      0x200 libHAL.a(stm32f4xx_hal_rcc.c.obj)
- .debug_frame   0x0000000000001acc      0x7fc libHAL.a(stm32f4xx_hal_spi.c.obj)
- .debug_frame   0x00000000000022c8      0xfb4 libHAL.a(stm32f4xx_hal_tim.c.obj)
- .debug_frame   0x000000000000327c      0x574 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
- .debug_frame   0x00000000000037f0      0x83c libHAL.a(stm32f4xx_hal_uart.c.obj)
- .debug_frame   0x000000000000402c       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000073c      0x194 CMakeFiles/battlebots.elf.dir/User/Src/chassis_motors.c.obj
+ .debug_frame   0x00000000000008d0       0x94 CMakeFiles/battlebots.elf.dir/User/Src/main.c.obj
+ .debug_frame   0x0000000000000964       0x4c CMakeFiles/battlebots.elf.dir/User/Src/test_DBUS.c.obj
+ .debug_frame   0x00000000000009b0       0x5c CMakeFiles/battlebots.elf.dir/User/Src/test_drive.c.obj
+ .debug_frame   0x0000000000000a0c       0x60 CMakeFiles/battlebots.elf.dir/Src/PID.c.obj
+ .debug_frame   0x0000000000000a6c      0x338 libHAL.a(stm32f4xx_hal.c.obj)
+ .debug_frame   0x0000000000000da4      0x2f8 libHAL.a(stm32f4xx_hal_can.c.obj)
+ .debug_frame   0x000000000000109c      0x498 libHAL.a(stm32f4xx_hal_cortex.c.obj)
+ .debug_frame   0x0000000000001534      0x250 libHAL.a(stm32f4xx_hal_dma.c.obj)
+ .debug_frame   0x0000000000001784      0x14c libHAL.a(stm32f4xx_hal_gpio.c.obj)
+ .debug_frame   0x00000000000018d0      0x200 libHAL.a(stm32f4xx_hal_rcc.c.obj)
+ .debug_frame   0x0000000000001ad0      0x7fc libHAL.a(stm32f4xx_hal_spi.c.obj)
+ .debug_frame   0x00000000000022cc      0xfb4 libHAL.a(stm32f4xx_hal_tim.c.obj)
+ .debug_frame   0x0000000000003280      0x574 libHAL.a(stm32f4xx_hal_tim_ex.c.obj)
+ .debug_frame   0x00000000000037f4      0x83c libHAL.a(stm32f4xx_hal_uart.c.obj)
+ .debug_frame   0x0000000000004030       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg_nano.a(lib_a-init.o)
